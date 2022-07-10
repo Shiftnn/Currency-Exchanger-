@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+:root {
+    --green:rgb(95 186 167);
+}
+
+.green-bc {
+    background-color: var(--green);
+}
+.green-c {
+    color: var(--green);
+}
+
+body {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    gap: 50px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+button {
+    border: 0px;
+    border-radius: 10px;
+    height: 30px;
+    width: 70px;
+    color: white;
+    cursor: pointer;
+}
+
+.exchanger {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+}
+
+.from {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    height: fit-content;
+}
+
+#rate {
+    width: fit-content;
+    height: fit-content;
+}
+
+.swap {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    height: fit-content;
+    align-items: center;
+}
+
+.to {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    height: fit-content;
+    align-items: center;
+}
+
+select {
+    border:1px solid rgba(231, 224, 224, 0.932);
+    padding: 10px;
+    outline: 0px;
+}
+
+.exchanger input {
+    text-align: right;
+    max-width: 60px;
+    font-size:18px;
+    height: 30px;
+    border: 0px;
+    outline: 0px;
+}
